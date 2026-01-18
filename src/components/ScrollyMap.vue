@@ -129,12 +129,12 @@ const generateSpec = (step) => {
         {
           name: "center_lon",
           value: -74.2,
-          bind: { input: "range", min: -80, max: -66, step: 0.1, name: "Centrar Long: " }
+          bind: { input: "range", min: -80, max: -66, step: 0.1, name: "Eje X: " }
         },
         {
           name: "center_lat",
           value: 4.6,
-          bind: { input: "range", min: -5, max: 13, step: 0.1, name: "Centrar Lat: " }
+          bind: { input: "range", min: -5, max: 13, step: 0.1, name: "Eje Y: " }
         }
       ],
 
@@ -333,4 +333,53 @@ onMounted(async () => {
 </script>
 
 <style scoped>
+/* Forzar que los controles de Vega (sliders) floten sobre el mapa */
+:deep(.vega-bindings) {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(0,0,0,0.05);
+  max-width: 250px;
+  
+  /* Por defecto ocultos para evitar que se vean en transiciones o pasos incorrectos */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden; 
+  transition: opacity 0.3s ease, visibility 0.3s;
+}
+
+/* Solo mostrar los controles cuando el contenedor padre es visible (tiene opacity-100) */
+.opacity-100 :deep(.vega-bindings) {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+:deep(.vega-bind) {
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+:deep(.vega-bind-name) {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #4a4a4a;
+}
+
+:deep(input[type="range"]) {
+  width: 100%;
+  accent-color: #333;
+}
 </style>
