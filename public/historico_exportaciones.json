@@ -1,0 +1,169 @@
+{
+    "datos_anuales": [
+        {
+            "año": 2000,
+            "cafe_toneladas": 552000,
+            "aguacate_toneladas": 5,
+            "cafe_precio_usd": 1.65,
+            "banano_toneladas": 1500000
+        },
+        {
+            "año": 2001,
+            "cafe_toneladas": 594000,
+            "aguacate_toneladas": 2,
+            "cafe_precio_usd": 1.32
+        },
+        {
+            "año": 2002,
+            "cafe_toneladas": 580000,
+            "aguacate_toneladas": 10,
+            "cafe_precio_usd": 1.24
+        },
+        {
+            "año": 2003,
+            "cafe_toneladas": 606000,
+            "aguacate_toneladas": 12,
+            "cafe_precio_usd": 1.42
+        },
+        {
+            "año": 2004,
+            "cafe_toneladas": 620000,
+            "aguacate_toneladas": 15,
+            "cafe_precio_usd": 1.58
+        },
+        {
+            "año": 2005,
+            "cafe_toneladas": 660000,
+            "aguacate_toneladas": 20,
+            "cafe_precio_usd": 2.05
+        },
+        {
+            "año": 2006,
+            "cafe_toneladas": 670000,
+            "aguacate_toneladas": 25,
+            "cafe_precio_usd": 2.15
+        },
+        {
+            "año": 2007,
+            "cafe_toneladas": 680000,
+            "aguacate_toneladas": 30,
+            "cafe_precio_usd": 2.42
+        },
+        {
+            "año": 2008,
+            "cafe_toneladas": 666000,
+            "aguacate_toneladas": 45,
+            "cafe_precio_usd": 2.92
+        },
+        {
+            "año": 2009,
+            "cafe_toneladas": 470000,
+            "aguacate_toneladas": 55,
+            "cafe_precio_usd": 2.58
+        },
+        {
+            "año": 2010,
+            "cafe_toneladas": 468000,
+            "aguacate_toneladas": 88,
+            "cafe_precio_usd": 3.21
+        },
+        {
+            "año": 2011,
+            "cafe_toneladas": 464000,
+            "aguacate_toneladas": 122,
+            "cafe_precio_usd": 2.98,
+            "banano_toneladas": 1910000
+        },
+        {
+            "año": 2012,
+            "cafe_toneladas": 430000,
+            "aguacate_toneladas": 460,
+            "cafe_precio_usd": 1.82,
+            "banano_toneladas": 1830000
+        },
+        {
+            "año": 2013,
+            "cafe_toneladas": 580000,
+            "aguacate_toneladas": 950,
+            "cafe_precio_usd": 1.45,
+            "banano_toneladas": 1600000
+        },
+        {
+            "año": 2014,
+            "cafe_toneladas": 654000,
+            "aguacate_toneladas": 1550,
+            "cafe_precio_usd": 1.98,
+            "banano_toneladas": 1720000
+        },
+        {
+            "año": 2015,
+            "cafe_toneladas": 762000,
+            "aguacate_toneladas": 5300,
+            "cafe_precio_usd": 1.52,
+            "banano_toneladas": 1780000
+        },
+        {
+            "año": 2016,
+            "cafe_toneladas": 770000,
+            "aguacate_toneladas": 18200,
+            "cafe_precio_usd": 1.68,
+            "banano_toneladas": 1868000
+        },
+        {
+            "año": 2017,
+            "cafe_toneladas": 780000,
+            "aguacate_toneladas": 28500,
+            "cafe_precio_usd": 1.48,
+            "banano_toneladas": 1960000
+        },
+        {
+            "año": 2018,
+            "cafe_toneladas": 768000,
+            "aguacate_toneladas": 30000,
+            "cafe_precio_usd": 1.32,
+            "banano_toneladas": 2009800
+        },
+        {
+            "año": 2019,
+            "cafe_toneladas": 820000,
+            "aguacate_toneladas": 44500,
+            "cafe_precio_usd": 1.18,
+            "banano_toneladas": 1895994
+        },
+        {
+            "año": 2020,
+            "cafe_toneladas": 750000,
+            "aguacate_toneladas": 67000,
+            "cafe_precio_usd": 1.28,
+            "banano_toneladas": 2180000
+        },
+        {
+            "año": 2021,
+            "cafe_toneladas": 744000,
+            "aguacate_toneladas": 99000,
+            "cafe_precio_usd": 1.75,
+            "banano_toneladas": 2100000
+        },
+        {
+            "año": 2022,
+            "cafe_toneladas": 684000,
+            "aguacate_toneladas": 98000,
+            "cafe_precio_usd": 2.45,
+            "banano_toneladas": 2160000
+        },
+        {
+            "año": 2023,
+            "cafe_toneladas": 636000,
+            "aguacate_toneladas": 120535,
+            "cafe_precio_usd": 1.95,
+            "banano_toneladas": 2110000
+        },
+        {
+            "año": 2024,
+            "cafe_toneladas": 740000,
+            "aguacate_toneladas": 138000,
+            "cafe_precio_usd": 2.15,
+            "banano_toneladas": 2130000
+        }
+    ]
+}
