@@ -28,7 +28,7 @@
             
             <ScrollyContent
               title="Café: la Tradición en Riesgo"
-              text="Aunque el 58% del territorio mantiene una alta aptitud para su cultivo, el café enfrenta una crisis estructural. La volatilidad extrema de precios —con caídas profundas en 2019 y picos efímeros en 2022— amenaza la estabilidad de miles de familias caficultoras."
+              text="Aunque el 58% del territorio mantiene una alta aptitud para su cultivo, el café enfrenta una crisis estructural. La volatilidad extrema de precios (con caídas profundas en 2019 y picos efímeros en 2022) amenaza la estabilidad de miles de familias caficultoras."
             />
           </div>
         </div>
